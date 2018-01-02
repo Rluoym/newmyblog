@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.myblog.mapper.page.PageMapper">
+  <resultMap id="BaseResultMap" type="com.myblog.po.BlogAndCategoryView">
+    <result column="blog_category_id" jdbcType="VARCHAR" property="blogCategoryId" />
+    <result column="blog_category_name" jdbcType="VARCHAR" property="blogCategoryName" />
+    <result column="blog_category_createtime" jdbcType="TIMESTAMP" property="blogCategoryCreatetime" />
+    <result column="blog_category_updatetime" jdbcType="TIMESTAMP" property="blogCategoryUpdatetime" />
+    <result column="blog_category_memo" jdbcType="VARCHAR" property="blogCategoryMemo" />
+    <result column="blog_id" jdbcType="VARCHAR" property="blogId" />
+    <result column="blog_title" jdbcType="VARCHAR" property="blogTitle" />
+    <result column="blog_content" jdbcType="VARCHAR" property="blogContent" />
+    <result column="blog_createtime" jdbcType="TIMESTAMP" property="blogCreatetime" />
+    <result column="blog_updatetime" jdbcType="TIMESTAMP" property="blogUpdatetime" />
+    <result column="blog_memo" jdbcType="VARCHAR" property="blogMemo" />
+  </resultMap>
+  
+  <!-- resultMap 返回值类型 -->
+  <select id="selectByPage" resultMap="BaseResultMap">
+    select * from blog_and_category_view order by blog_createtime DESC limit #{startPos},#{pageSize} 
+  </select>
+
+  <select id="countAll" resultType="java.lang.Integer">
+    select count(*) from blog_and_category_view
+  </select>
+ 
+</mapper>
