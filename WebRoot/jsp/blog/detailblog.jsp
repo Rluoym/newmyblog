@@ -191,72 +191,13 @@
 
     <div>
       
-        
-<div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
-    <img id="wechat_subscriber_qcode" src="/uploads/wechat.jpg" alt="徐阿衡 wechat" style="width: 200px; max-width: 100%;"/>
-    <div>欢迎关注：空白的微信公众号</div>
-</div>
-
-
-      
     </div>
 
     <div>
       
-        
-  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-    <div>客官，打个赏呗~</div>
-    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-      <span>赏</span>
-    </button>
-    <div id="QR" style="display: none;">
-      
-        <div id="wechat" style="display: inline-block">
-          <img id="wechat_qr" src="http://7xu83c.com1.z0.glb.clouddn.com/1.pic.jpg" alt="徐阿衡 WeChat Pay"/>
-          <p>微信打赏</p>
-        </div>
-      
-      
-    </div>
-  </div>
-
-
-      
     </div>
 
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/公众号/" rel="tag">#公众号</a>
-          
-            <a href="/tags/知乎/" rel="tag">#知乎</a>
-          
-            <a href="/tags/专栏/" rel="tag">#专栏</a>
-          
-        </div>
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2017/10/25/论文笔记 - CopyNet or Generate/" rel="next" title="论文笔记 - Copy or Generate">
-                <i >&laquo;</i> 论文笔记 - Copy or Generate
-              </a>
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/11/17/论文笔记 - HRED 与 VHRED/" rel="prev" title="论文笔记 - HRED 与 VHRED">
-                论文笔记 - HRED 与 VHRED <i >&raquo;</i>
-              </a>
-            
-          </div>
-        </div>
-
-    </footer>
+   
   </article>
 
     <div class="post-spread">
@@ -337,67 +278,6 @@
 							</div>
 
 						</nav>
-
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
-          </div>
-        
-
-        <div class="links-of-author motion-element">
-            
-              <span class="links-of-author-item">
-                <a href="https://github.com/Shuang0420" target="_blank" title="GitHub">
-                  
-                    <i class="fa fa-fw fa-github"></i>
-                  
-                  GitHub
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="http://www.linkedin.com/in/shuang-xu-7008b894?trk=nav_responsive_tab_profile_pic" target="_blank" title="LinkedIn">
-                  
-                    <i class="fa fa-fw fa-linkedin"></i>
-                  
-                  LinkedIn
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="https://zhuanlan.zhihu.com/c_136690664" target="_blank" title="知乎">
-                  
-                    <i class="fa fa-fw fa-globe"></i>
-                  
-                  知乎
-                </a>
-              </span>
-            
-          
-        </div>
-        
-          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
-            <div class="links-of-blogroll-title">
-              <i class="fa  fa-fw fa-globe"></i>
-              Links
-            </div>
-            <ul class="links-of-blogroll-list">
-              
-                <li class="links-of-blogroll-item">
-                  <a href="http://starllap.space" title="Star" target="_blank">Star</a>
-                </li>
-              
-                <li class="links-of-blogroll-item">
-                  <a href="https://liam0205.me" title="Liam Huang" target="_blank">Liam Huang</a>
-                </li>
-              
-            </ul>
-          </div>
-        
 
       </section>
 
@@ -480,10 +360,10 @@
 
 
     <script type="text/javascript">
-      var disqus_shortname = 'httpshuang0420githubio';
-      var disqus_identifier = '2017/11/11/关于微信公众号和知乎专栏的开通/';
-      var disqus_title = "关于微信公众号和知乎专栏的开通";
-      var disqus_url = 'http://www.shuang0420.com/2017/11/11/关于微信公众号和知乎专栏的开通/';
+      var disqus_shortname = '';
+      var disqus_identifier = '';
+      var disqus_title = "";
+      var disqus_url = '';
 
       function run_disqus_script(disqus_script){
         var dsq = document.createElement('script');

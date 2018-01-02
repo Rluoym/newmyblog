@@ -259,68 +259,7 @@
 						href="${pageContext.request.contextPath }/resources/test/test4.css" />
 					<script
 						src="${pageContext.request.contextPath }/resources/test/test10.js"></script>
-					<script>
-        var emojiList = [{
-            code:'smile',
-            title:'笑脸',
-            unicode:'1f604'
-        },{
-            code:'mask',
-            title:'生病',
-            unicode:'1f637'
-        },{
-            code:'joy',
-            title:'破涕为笑',
-            unicode:'1f602'
-        },{
-            code:'stuck_out_tongue_closed_eyes',
-            title:'吐舌',
-            unicode:'1f61d'
-        },{
-            code:'flushed',
-            title:'脸红',
-            unicode:'1f633'
-        },{
-            code:'scream',
-            title:'恐惧',
-            unicode:'1f631'
-        },{
-            code:'pensive',
-            title:'失望',
-            unicode:'1f614'
-        },{
-            code:'unamused',
-            title:'无语',
-            unicode:'1f612'
-        },{
-            code:'grin',
-            title:'露齿笑',
-            unicode:'1f601'
-        },{
-            code:'heart_eyes',
-            title:'色',
-            unicode:'1f60d'
-        },{
-            code:'sweat',
-            title:'汗',
-            unicode:'1f613'
-        },{
-            code:'smirk',
-            title:'得意',
-            unicode:'1f60f'
-        }]; 
-        var disq = new iDisqus('comments', {
-            forum: 'httpshuang0420githubio',
-            site: 'http://www.shuang0420.com',
-            api: 'http://www.shuang0420.com/disqus/api',
-            mode: 3,
-            badge: '博主',
-            timeout: 3000,
-            init: true,
-            emoji_list: emojiList
-        });
-        disq.count();
-    </script>
+			
 
 				</div>
 			</div>
@@ -366,52 +305,6 @@
 							</div>
 
 						</nav>
-
-						<div class="feed-link motion-element">
-							<a href="/atom.xml" rel="alternate"> <i class="fa fa-rss"></i>
-								RSS
-							</a>
-						</div>
-
-
-						<div class="links-of-author motion-element">
-
-
-							<span class="links-of-author-item"> <a
-								href="https://github.com/Shuang0420" target="_blank"
-								title="GitHub"> <i class="fa fa-fw fa-github"></i> GitHub
-							</a>
-							</span> <span class="links-of-author-item"> <a
-								href="http://www.linkedin.com/in/shuang-xu-7008b894?trk=nav_responsive_tab_profile_pic"
-								target="_blank" title="LinkedIn"> <i
-									class="fa fa-fw fa-linkedin"></i> LinkedIn
-							</a>
-							</span> <span class="links-of-author-item"> <a
-								href="https://zhuanlan.zhihu.com/c_136690664" target="_blank"
-								title="知乎"> <i class="fa fa-fw fa-globe"></i> 知乎
-							</a>
-							</span>
-
-
-						</div>
-
-						<div
-							class="links-of-blogroll motion-element links-of-blogroll-inline">
-							<div class="links-of-blogroll-title">
-								<i class="fa  fa-fw fa-globe"></i> Links
-							</div>
-							<ul class="links-of-blogroll-list">
-
-								<li class="links-of-blogroll-item"><a
-									href="http://starllap.space" title="Star" target="_blank">Star</a>
-								</li>
-
-								<li class="links-of-blogroll-item"><a
-									href="https://liam0205.me" title="Liam Huang" target="_blank">Liam
-										Huang</a></li>
-
-							</ul>
-						</div>
 
 					</section>
 
